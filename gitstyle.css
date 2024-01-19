@@ -1,6 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
 body {
     background-color: rgb(255, 255, 255);
     font-family: 'Playfair Display';
     margin: 0;
     padding: 0;
   }
+
+
+
+  .navbar {
+    background-color: #303030;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 10px;
+    font-size: 24px;
+  }
+  
+  .navbar-title {
+    display: none;
+  }
+  
+  .navbar-title:hover {
+    color: #ff369e;
+  }
+  
+  .navbar-items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+    color: #f41eff;
+    text-decoration: none;
+  }
+  
+  .nav-item:hover {
+    color: #ffd700; 
+  }
+  
+  button {
+    background-color: black;
+    color: #36ff4a;
+    margin: 20px;
+    padding: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(255, 0, 221);
+    color: #000000;
+    margin: 20px;
+    padding: 4px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
