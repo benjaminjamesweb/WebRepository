@@ -71,6 +71,96 @@ body {
   }
   
   
+
+.travel-section {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .travel-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  }
+  
+  .travel-container {
+  position: absolute;
+  }
+  
+  .travel-header {
+    font-size: 70px;
+  }
+  
+  .travel-header:hover {
+    color: #ff4444;
+  }
+  
+  .travel-content {
+    font-style: italic;
+  }
+  
+  .travel-content:hover {
+    color: #ff0000;
+  }
+  
+  
+  
+  
+  
+  #best-features {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .best-features-header-section {
+    margin-top: 60px;
+    font-size: larger;
+    margin-bottom: 50px;
+  }
+  
+  .best-features-header:hover {
+    color: #ff2194;
+  }
+  
+  .best-features-item-1 {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-style: italic;
+    margin-bottom: 50px;
+  }
+  
+  .best-features-item-2 {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-style: italic;
+    margin-bottom: 50px;
+  }
+  
+  .best-features-item-3 {
+    margin-left: 70px;
+    margin-right: 70px;
+    font-style: italic;
+    margin-bottom: 50px;
+  }
+  
+  
+  #stunning-examples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  
+  
   
 
   .stunning-examples-header {
